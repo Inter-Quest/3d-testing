@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { T, useFrame } from '@threlte/core';
 	import Logo from './models/Logo.svelte';
-	import { Environment } from '@threlte/extras';
+	import { Environment, Grid } from '@threlte/extras';
 	import { onMount } from 'svelte';
 
 	let rotationY = 0;
